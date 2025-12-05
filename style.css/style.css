@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: rgb(176, 176, 240);
+}
+.header{
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.name{
+    font-size: 2.5em;
+    margin: 0;
+}
+.text{
+    font-size: 1.2em;
+    margin: 5px 0 0 0;
+}
+.descripcion{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(91, 91, 247);
+    
+}
+.text2{
+    margin: 20px;
+    font-size: 2rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text3{
+    font-size: 1.2rem;
+    margin: 20px;
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 10px;
+}
+.img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    background-color: white;
+}
+.text3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.habilidades{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(91, 91, 247);
+
+}
+.skills{
+    margin: 20px;
+    font-size: 2rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text4{
+    font-size: 1.2rem;
+    margin: 20px;
+    font-size: 1.3rem;
+    background-color: white;
+    padding: 10px;
+}
+.title{
+    font-size: 1.5rem;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px; 
+}
+.list{
+    font-size: 1.2rem;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    gap: 7.4rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+.title2{
+    font-size: 1.5rem;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px; 
+}
+.list2{
+    font-size: 1.2rem;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    gap: 6rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+.footer{
+    background-color: #282828;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    gap: 20px;
+}
+.gallery img{
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.boton{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.boton2{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 1.4rem;
+}
