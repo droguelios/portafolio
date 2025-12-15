@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
     background-color: rgb(176, 176, 240);
 }
+
 .header{
     background-color: #282828;
     color: white;
@@ -100,7 +101,8 @@ body{
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
-    width: 800px; 
+    max-width: 800px;
+    width: 90%; 
 }
 .list{
     font-size: 1.2rem;
@@ -108,7 +110,7 @@ body{
     background-color: white;
     padding: 10px;
     display: flex;
-    gap: 7.4rem;
+    gap: 5rem;
     border-radius: 10px;
     max-width: 400px;
     margin-left: auto;
@@ -123,7 +125,8 @@ body{
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
-    width: 800px; 
+    width: 90%;
+    max-width: 800px; 
 }
 .list2{
     font-size: 1.2rem;
@@ -131,7 +134,7 @@ body{
     background-color: white;
     padding: 10px;
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
     border-radius: 10px;
     max-width: 400px;
     margin-left: auto;
@@ -159,7 +162,8 @@ body{
     margin-top: 70px;
     gap: 20px;
 }
-.gallery img{
+
+    .gallery img{
     width: 30%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -182,4 +186,44 @@ body{
     text-decoration: none;
     margin: 20px auto;
     font-size: 1.4rem;
+}
+@media (max-width: 480px)
+{
+body{
+    font-size: 18px;
+}
+.habilidades,
+.descripcion,
+.header{
+    padding: 18px;
+}
+.gallery{
+    gap: 18px;
+    width: 70%;
+}
+.skills{
+    padding: 17px;
+    width: 60%;
+}
+.title,
+.title2{
+    padding: 17px;
+    width: 50%;
+}
+}
+@media(min-width:1024px)
+{
+    .title,
+    .title2,
+    .skills,
+    .habilidades
+    {
+        padding: 17px;
+        
+    }
+}
+.goats{
+    width: 100px;
+    height: auto;
+    
 }
