@@ -1,2 +1,20 @@
-Encontraras mi portafolio y mi galeria constantemente voy a actualizando el portafolio con los conocimientos que obtenga de css para que no quede tan simple tambien lo mas probable es que 
-ponga todo en ingles cuando tenga un nivel mas avanzado ya que quiero hacerlo todo sin traductor 
+ Portafolio
+
+Este es mi portafolio personal hecho con HTML y CSS.
+
+Cómo verlo
+
+1. Descarga o clona el repositorio  
+2. Abre el archivo `index.html` en el navegador  
+
+También puedes usar un servidor local si quieres.
+
+Tecnologías usadas
+
+- HTML
+- CSS
+- JavaScript (básico)
+
+Autor
+
+Manuel Alejandro Rodríguez Guerrero
